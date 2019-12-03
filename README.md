@@ -25,11 +25,11 @@ Linear regression, lasso, and ridge regression were compared. The performance of
 
 Summary for the ridge regression:
 
-RMSE = 0.228
+RMSE = 0.18
 
-MAE =  0.154
+MAE =  0.15
 
-R2 = 0.04
+R2 = 0.11
 
 ## Conclusions and Recommendations
 According to the best model produced by the Ridge Regression, most variables in the model exhibited a protective effect again the Hg body burden in fish. This mean that as the concentration of elements in the soil increase, the concentration of Hg in the fish tissue decrease. Fewer variables have a positive relationship with fish tissue Hg. This means as the soil concentration of thallium increases so does the concentration of fish Hg.  
