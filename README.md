@@ -2,7 +2,7 @@
 # Research Question: 
 What is the relationship between soil geochemistry and mercury (Hg) in fish tissue in the United States?
 
-## Dataset description:
+## Dataset description
 Data csv for soil geochemistry (n=64756): https://mrdata.usgs.gov/geochem/ and metadata available from: https://mrdata.usgs.gov/geochem/about.php
 
 In this analysis only inductively coupled mass spectrometry- mass spectrometry (ICP-MS) chemical analysis results and select atomic absorption (AA) will be retained as independent variables.
