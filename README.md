@@ -31,7 +31,7 @@ MAE =  0.154
 
 R2 = 0.04
 
-# Conclusions and Recommendations
+## Conclusions and Recommendations
 According to the best model produced by the Ridge Regression, most variables in the model exhibited a protective effect again the Hg body burden in fish. This mean that as the concentration of elements in the soil increase, the concentration of Hg in the fish tissue decrease. Fewer variables have a positive relationship with fish tissue Hg. This means as the soil concentration of thallium increases so does the concentration of fish Hg.  
 
 AL_ICP40 = -0.018
@@ -48,7 +48,7 @@ AS_AA = -0.12
 
 SE_AA = -0.36
 
-The ridge regression models had very low overall predictive power. However,  when these results were compared with the traditional statistical modelling different results are obtained. Most concerning was the different direction of the coefficients. Additionally, the R2 was much higher in the ordinal least squares  (OLS) regression model. Thus, the ridge model may not be the best model.
+The ridge regression models had very low overall predictive power. However,  when these results were compared with the traditional statistical modelling different results are obtained. Most concerning was the different direction of the coefficients. Additionally, the R2 was much higher in the ordinal least squares  (OLS) regression model. Thus, the ridge model may not be the best model and further investigation is needed between machine learning and statistical methods.
 
 Future Questions:
 How do these patterns and relationships develop changed as we change how we aggregate the data to the grid.
