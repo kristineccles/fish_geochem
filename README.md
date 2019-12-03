@@ -26,7 +26,7 @@ Summary for the ridge regression:
 •	MAE =  0.154
 •	R2 = 0.04
 
-# Conclusions/ recommendations
+## Conclusions/ recommendations
 According to the best model produced by the Ridge Regression, all variables in the model exhibited a protective effect again the Hg body burden in fish. This mean that as the concentration of elements in the soil increase, the concentration of Hg in the fish tissue decrease. Molybdenum (-0.23) had the created influence on the concentration of Hg in the fish tissue, followed by copper (-0.22), lithium (-0.12), and thallium (-0.029). Further the ridge regression models had very low overall predictive power (4% variance explained). However, when these results were compared with the traditional statistical modelling with more user input into the model, difference results were obtained. Most concerning was the different direction of the coefficients. Additionally, the R2 was much higher in the ordinal least squares  (OLS) regression model. Thus, this leads me to conclude that a computer lead approach without expert input my provide a misspecified model. A combination of the two techniques would be recommended. 
 
 Future Questions:
