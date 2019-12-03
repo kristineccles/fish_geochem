@@ -1,5 +1,5 @@
 # Predicting Fish Mercury
-# Research Question: 
+# Research Question 
 What is the relationship between soil geochemistry and mercury (Hg) in fish tissue in the United States?
 
 ## Dataset description
