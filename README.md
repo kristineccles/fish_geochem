@@ -10,9 +10,7 @@ In this analysis only inductively coupled mass spectrometry- mass spectrometry (
 Data csv for fish Hg (n=19705): https://www.epa.gov/fish-tech/national-survey-mercury-concentrations-fish-database-1990-1995
 
 ## Data Preparation
-This spatial data required pre-processing. First a spatial data frame was developed from the imported csv files. Then a grid was developed to cover the United States (n=1534 cells). To aggregate the point data to the grid, where an average value was calculate per cell, a point to polygon aggregation was use on the NGS and Hg data. This attaches the ID of each cell a point lies in to the point layer. Then these layers were merged using a left join based on the grid ID. The data was then cleaned removing any cell that didn’t have all the data. 
-[Data Preprocessing!](data_preprocessing.png)
-
+This spatial data required pre-processing. First a spatial data frame was developed from the imported csv files. Then a grid was developed to cover the United States (n=1534 cells). To aggregate the point data to the grid, where an average value was calculate per cell, a point to polygon aggregation was use on the NGS and Hg data. This attaches the ID of each cell a point lies in to the point layer. Then these layers were merged using a left join based on the grid ID. The data was then cleaned removing any cell that didn’t have all the data.
 
 ## Scrub the Data
 The data was cleaned by removing any by removing rows (grid cells) that had missing data. This left n=214.
